@@ -28,6 +28,7 @@ module Frontapp
     include Frontapp::Client::Comments
     include Frontapp::Client::ContactGroups
     include Frontapp::Client::Contacts
+    include Frontapp::Client::Accounts
     include Frontapp::Client::Conversations
     include Frontapp::Client::Events
     include Frontapp::Client::Inboxes
